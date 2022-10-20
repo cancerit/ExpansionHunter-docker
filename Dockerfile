@@ -59,6 +59,7 @@ locales \
 curl \
 ca-certificates \
 time \
+samtools \
 unattended-upgrades && \
 unattended-upgrade -d -v && \
 apt-get remove -yq unattended-upgrades && \
